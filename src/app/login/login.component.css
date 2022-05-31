@@ -1,0 +1,8 @@
+#img-bg {
+    background-image: url(../../assets/login.jpg);
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px 0 0 12px;
+}
