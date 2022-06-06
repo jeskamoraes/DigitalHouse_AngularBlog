@@ -1,3 +1,7 @@
+.bg-footer {
+    background-color: #604Ac7;
+}
+
 ul.social-network {
     list-style: none;
     padding: 0;
@@ -15,14 +19,14 @@ ul.social-network li {
     padding: 10%;
 }
 
-.fa-facebook-square:hover {
+.fa-facebook:hover {
     color: blue;
 }
 
-.fa-instagram-square:hover {
-    color: crimson;
+.fa-instagram:hover {
+    color: rgb(122, 9, 126);
 }
 
-.fa-linkedin-square:hover {
-    color: gray;
+.fa-linkedin:hover {
+    color: rgb(33, 71, 236);
 }
