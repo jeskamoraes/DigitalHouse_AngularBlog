@@ -1,4 +1,3 @@
-import { AuthService } from './../service/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../model/User';
 import { UserLogin } from '../model/UserLogin';
@@ -37,7 +36,7 @@ export class RegisterComponent implements OnInit {
 
   cadastrar(
   ) {
-    this.user.tipo = this.tipoUsuario // Criar atributo tipo nas models e colocar no backend
+    // this.user.tipo = this.tipoUsuario // Criar atributo tipo nas models e colocar no backend
 
     if(this.user.senha != this.confirmarSenha)
     {
