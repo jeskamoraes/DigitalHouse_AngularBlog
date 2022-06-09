@@ -1,7 +1,21 @@
 <!--Tudo que for carregar no site precisa passar aqui-->
 
-<app-menu></app-menu>
-<app-footer></app-footer>
+<!-- 
+    *ngIf="auth.logado()" CASO O USUÁRIO NÃO ESTEJA 
+     LOGADO O MENU NÃO SERÁ CARREGADO
+-->
+<app-menu *ngIf="auth.logado()"></app-menu>
+
+<router-outlet></router-outlet>
+
+<!-- 
+    *ngIf="auth.logado()" CASO O USUÁRIO NÃO ESTEJA 
+     LOGADO O FOOTER NÃO SERÁ CARREGADO
+-->
+<app-footer *ngIf="auth.logado()"></app-footer>
+
+
+
 
 <!-- <app-login></app-login> -->
-<app-register></app-register>
+<!-- <app-register></app-register> -->
